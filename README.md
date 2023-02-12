@@ -1,2 +1,0 @@
-# redux-testing
-trying redux
