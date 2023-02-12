@@ -1,16 +1,13 @@
-import { useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
+import Counter from './features/counter/Counter'
 
 const App = () => {
-  useEffect(() => {
-    const getData = async () => {
-      const { data } = await axios.get('/api/products/') // * <-- replace with your endpoint
-      console.log(data)
-    }
-    getData()
-  })
-
-  return <h1>Hello World</h1>
+  return (
+    <div>
+      <h1>Hello Increment</h1>
+      <Counter />
+    </div>
+  )
 }
 
 export default App
