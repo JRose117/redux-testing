@@ -49,7 +49,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <h1>To Do List</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" value={newTask} onChange={handleChange} />
         <button type="submit">Add Task</button>
